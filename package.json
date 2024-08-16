@@ -1,14 +1,14 @@
 {
   "private": true,
-  "name": "datasciencefolio",
+  "name": "portolio",
   "version": "0.1.0",
   "homepage": ".",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
