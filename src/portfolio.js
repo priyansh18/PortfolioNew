@@ -10,7 +10,7 @@ const seo = {
   og: {
     title: "Abhishek Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "https://abhishekjaglan.netlify.app",
   },
 };
 
