@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.03e6cb19.chunk.css",
+    "main.js": "./static/js/main.dfa6dbc2.chunk.js",
+    "main.js.map": "./static/js/main.dfa6dbc2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6ced28f6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6ced28f6.js.map",
+    "static/js/2.e9a37326.chunk.js": "./static/js/2.e9a37326.chunk.js",
+    "static/js/2.e9a37326.chunk.js.map": "./static/js/2.e9a37326.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.14c922053a8c0d603a436fd1544c90d5.js": "./precache-manifest.14c922053a8c0d603a436fd1544c90d5.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.03e6cb19.chunk.css.map": "./static/css/main.03e6cb19.chunk.css.map",
+    "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/acti.gif": "./static/media/acti.5eae8648.gif",
+    "static/media/data.svg": "./static/media/data.cf3766d9.svg",
+    "static/media/all.css": "./static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/logo-01.png": "./static/media/logo-01.868c1f38.png",
+    "static/media/news.gif": "./static/media/news.4f42a4cb.gif",
+    "static/media/proj-1.jpeg": "./static/media/proj-1.e7f9f185.jpeg",
+    "static/media/proj-2.png": "./static/media/proj-2.9bb0505f.png",
+    "static/media/proj-3.jpeg": "./static/media/proj-3.6b67377a.jpeg",
+    "static/media/proj-4.jpeg": "./static/media/proj-4.2bb81aca.jpeg",
+    "static/media/proj-5.png": "./static/media/proj-5.5d127281.png",
+    "static/media/project-01.png": "./static/media/project-01.1a47ef14.png",
+    "static/media/project-04.png": "./static/media/project-04.8e3b0826.png",
+    "static/media/project-05.png": "./static/media/project-05.0a4c7521.png",
+    "static/media/project-06.png": "./static/media/project-06.6daaa585.png",
+    "static/media/project-07.png": "./static/media/project-07.efb76d20.png",
+    "static/media/voice.gif": "./static/media/voice.97948ca7.gif",
+    "static/media/web.svg": "./static/media/web.9331f972.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ced28f6.js",
+    "static/js/2.e9a37326.chunk.js",
+    "static/css/main.03e6cb19.chunk.css",
+    "static/js/main.dfa6dbc2.chunk.js"
+  ]
+}
