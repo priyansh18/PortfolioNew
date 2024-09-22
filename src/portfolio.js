@@ -4,22 +4,23 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Abhishek Jaglan | Portfolio",
+  title: "Priyansh Singhal | Portfolio",
   description:
-    "A Full Stack Web Developer who thrives on providing solution based custom Backend Systems, and a blend of Frontend Technologies",
+    "Associate Application Developer at Oracle. I specialize in developing and maintaining web applications using PL/SQL and a JavaScript library for creative coding.",
   og: {
-    title: "Abhishek Portfolio",
+    title: "Priyansh Portfolio",
     type: "website",
-    url: "https://abhishekjaglan.netlify.app",
+    url: "https://priyanshsinghal.netlify.app",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Hi 👋!",
-  sub: "Abhishek Jaglan",
-  logo_name: "Abhishek Jaglan",
-  resumeLink: "https://drive.google.com/file/d/1bCq1rdLJwN6pC_sqh9tCkyTpuyIyvzEm/view?usp=sharing",
+  sub: "Priyansh Singhal",
+  logo_name: "Priyansh Singhal",
+  resumeLink:
+    "https://drive.google.com/file/d/1bpQzuRfXQ9jbjFBR6SkG9LKNvyaifN3C/view?usp=sharing",
 };
 
 // home logos
@@ -31,7 +32,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/abhishekjaglan",
+      profileLink: "https://github.com/priyansh18",
     },
     {
       siteName: "GeeksforGeeks",
@@ -39,47 +40,23 @@ const competitiveSites = {
       style: {
         color: "#2F8D46",
       },
-      profileLink: "https://www.geeksforgeeks.org/user/jaglanabhishek08/",
+      profileLink: "https://www.geeksforgeeks.org/user/singhalpriyansh58/",
     },
-    // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/rohankokkula01",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/rohan0301",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "simple-icons:hackerearth",
-    //   style: {
-    //     color: "#323754",
-    //   },
-    //   profileLink: "https://www.hackerearth.com/@rohankokkula",
-    // },
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/profile/singhalpriyansh3",
+    },
     {
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#FFA116",
       },
-      profileLink: "https://leetcode.com/u/jaglanabhishek08/",
-    },
-    {
-      siteName: "CodeStudio",
-      iconifyClassname: "simple-icons:codingninjas",
-      style: {
-        color: "#DD6620",
-      },
-      profileLink: "https://www.naukri.com/code360/profile/jaglanabhishek",
+      profileLink: "https://leetcode.com/u/18_priyansh/",
     },
     {
       siteName: "LinkedIn",
@@ -87,7 +64,7 @@ const competitiveSites = {
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/abhishek-jaglan-041218160/",
+      profileLink: "https://www.linkedin.com/in/priyanshsinghal/",
     },
   ],
 };
@@ -96,31 +73,15 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "Applications Developer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Proficient in building high-performance backend services using Node.js and TypeScript, with a focus on creating maintainable and scalable RESTful APIs",
-        "⚡ Experienced in designing and implementing database solutions using both NoSQL (MongoDB) and SQL (MySQL, Postgres) databases, with skills in query optimization and data modeling",
-        "⚡ Adept at leveraging backend frameworks and tools such as Express.js, NestJS, and Cloudflare workers to develop secure and efficient server-side applications",
-        "⚡ Demonstrates a strong understanding of backend architecture, including microservices, message queues (Kafka), and cloud services, with ongoing learning in advanced deployment technologies like Kubernetes and AWS",
+        "⚡  Leveraged PL/SQL, JavaScript, and Oracle Cloud expertise to troubleshoot and resolve complex issues in Oracle APEX and OCI, boosting task completion rates by 30%.",
+        "⚡ Created tutorials and documentation to aid team members in understanding Oracle APEX and OCI, improving efficiency and collaboration.",
+        "⚡ Streamlined workflows by sharing best practices and troubleshooting techniques, reducing time spent on resolving recurring issues.",
+        "⚡ Developed resources that accelerated team learning, resulting in quicker onboarding and improved project outcomes.",
       ],
       softwareSkills: [
-        {
-          skillName: "Node.js",
-          fontAwesomeClassname: "logos-nodejs",
-          style: {
-            backgroundColor: "transparent",
-            color: "#5FA04E"
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3178C6"
-          },
-        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "ion-logo-javascript",
@@ -138,92 +99,32 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            backgroundColor: "transparent",
-            color: "#47A248"
-          },
-        },
-        {
           skillName: "SQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             backgroundColor: "transparent",
-            color: "#4479A1"
+            color: "#4479A1",
           },
         },
+
         {
-          skillName: "Express.js",
-          fontAwesomeClassname: "skill-icons:expressjs-light",
+          skillName: "OCI",
+          fontAwesomeClassname: "fluent:cloud-48-filled",
           style: {
             backgroundColor: "transparent",
+            color: "#232F3E",
           },
         },
-        {
-          skillName: "NestJS",
-          fontAwesomeClassname: "logos-nestjs",
-          style: {
-            backgroundColor: "transparent",
-            color: "#E0234E"
-          },
-        },
-        {
-          skillName: "Next.js",
-          fontAwesomeClassname: "ri:nextjs-line",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Kafka",
-          fontAwesomeClassname: "logos-kafka",
-          style: {
-            backgroundColor: "transparet",
-            // color: "#231F20"
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            backgroundColor: "transparent",
-            color: "#2496ED"
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "logos-kubernetes",
-          style: {
-            backgroundColor: "transparent",
-            color: "#326CE5"
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "logos-aws",
-          style: {
-            backgroundColor: "transparent",
-            color: "#232F3E"
-          },
-        },
-        // {
-        //   skillName: "Micro-Services",
-        //   fontAwesomeClassname: "logos-tableau",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
-        // },
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Full Stack Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Versatile full stack developer with strong capabilities in both client-side and server-side technologies, creating cohesive web applications using React.js, Next.js, Node.js, Express.js, MongoDB, and PostgreSQL",
-        "⚡ Adept at bridging frontend and backend development, implementing features like secure user authentication with jwt and bcrypt, real-time data updates using react hooks, and optimized api consumption with axios across the stack",
-        "⚡ demonstrates proficiency in full stack JavaScript/TypeScript development, leveraging frameworks and libraries such as ReactJS, Express.js, and NestJS on both ends to create efficient, scalable, and maintainable web applications",
-        "⚡ Skilled in integrating various technologies and services, from frontend state management with Context API and useReducer to backend API development with Node.js, database operations using Mongoose and Prisma ORM, and third-party service integrations like Plaid and Dwolla",
+        "⚡ Skilled full stack developer with experience in building dynamic websites using Django, PHP, WordPress, HTML, CSS, JavaScript, and React.",
+        "⚡ Capable of connecting the frontend and backend, implementing secure login systems, real-time updates with React and Redux, and making sure data flows smoothly between parts of the application.",
+        "⚡ Proficient in both JavaScript and backend technologies, using tools like React, jQuery, and Redux for the frontend, and Django or PHP for the backend to create reliable and scalable websites.",
+        "⚡  Able to seamlessly combine different technologies—from managing state with Redux to building robust backends with Django and integrating third-party services into WordPress for a complete solution.",
       ],
       softwareSkills: [
         {
@@ -270,11 +171,19 @@ const skills = {
           },
         },
         {
-          skillName: "Node.js",
-          fontAwesomeClassname: "logos-nodejs",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
             backgroundColor: "transparent",
-            color: "#5FA04E"
+            color: "#5FA04E",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#5FA04E",
           },
         },
         {
@@ -286,46 +195,6 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interfaces for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //     "⚡ Applying latest Design principles and experienced in product wireframing",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Photoshop",
-    //       fontAwesomeClassname: "simple-icons:adobephotoshop",
-    //       style: {
-    //         color: "#2fa3f7",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -341,149 +210,118 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
-      title: "TrustWorth Bank",
-      img_path: "trustworth.png",
+      title: "MovieTv-Info",
+      img_path: "proj-1.jpeg",
       description:
-        "A web dashboard for handling all your bank accounts at one place and perform transactions among those accounts using plaid and dwolla.",
+        "It is a Movies & Series app, calling an external API (OMDB) to fetch the movies or the TV series data and manipulate it inside our application with Redux integration.",
       tags: [
         {
-          lang: "Nextjs",
+          lang: "React",
           color: "#004782",
         },
         {
-          lang: "AppWrite",
+          lang: "HTML",
           color: "#820032",
         },
         {
-          lang: "Plaid",
+          lang: "CSS",
           color: "#00a100",
         },
         {
-          lang: "Dwolla",
+          lang: "Sass",
           color: "#ff4b4b",
         },
         {
-          lang: "Vercel",
+          lang: "Firebase",
           color: "#3c0095",
         },
         {
-          lang: "TypeScript",
+          lang: "Javascript",
           color: "#c47206",
         },
         {
-          lang: "Tailwind",
+          lang: "Node",
           color: "#820032",
         },
       ],
-      link: "https://trust-worth.vercel.app/sign-in",
-      code: "https://github.com/abhishekjaglan/TrustWorth-Bank",
+      link: "https://movietv-info.web.app/",
+      code: "https://github.com/priyansh18/MovieTv-Info",
       linkcolor: "white",
     },
 
     {
-      title: "Medium",
-      img_path: "medium.jpeg",
+      title: "Covid-19-Dashboard",
+      img_path: "proj-2.png",
       description:
-        "A clone of medium blogging website with user creation(auth), feed, and publish blogs built on ReactJs and Cloudflare",
+        "This project tracks live COVID-19 stats by country and city, providing real-time updates on confirmed, active, and recovered cases. It also offers recovery and infection rate predictions, allowing users to forecast future trends. Additionally, a real-time self-assessment chatbot helps users assess symptoms and receive safety advice.",
       tags: [
         {
-          lang: "JavaScript",
+          lang: "Python3",
           color: "red",
         },
         {
-          lang: "ReactJs",
+          lang: "Django",
           color: "#004782",
         },
         {
-          lang: "Cloudflare",
+          lang: "HTML",
           color: "#c47206",
         },
         {
-          lang: "Hono",
+          lang: "Javascript",
           color: "#4257f5",
         },
         {
-          lang: "Postgres",
+          lang: "ChartJs",
           color: "#ff4b4b",
         },
         {
-          lang: "Connection Pooling(Prisma)",
+          lang: "CSS",
           color: "#00a100",
         },
-        {
-          lang: "Tailwind",
-          color: "#820032",
-        },
       ],
-      link: "https://medium-frontend-lake.vercel.app/",
-      code: "https://github.com/abhishekjaglan/Medium",
+      link: "https://interactivecovid19dashboard.herokuapp.com/",
+      code: "https://github.com/priyansh18/Covid-19-Dashboard",
       linkcolor: "white",
     },
     {
-      title: "QuickDel",
-      img_path: "quickdel.jpeg",
+      title: "Pryfry",
+      img_path: "proj-3.jpeg",
       description:
-        "A webapp to sign-in/sign-up to select food, add in cart, search for food, update cart and order online.",
+        "It is a restaurant website built using Django, where user can check the menu and pricing,reserve a table, check out blogs as well as send queries using email.",
       tags: [
         {
           lang: "JavaScript",
           color: "#004782",
         },
         {
-          lang: "ReactJs",
+          lang: "Sass",
           color: "#8700b0",
         },
         {
-          lang: "NodeJs",
+          lang: "HTML",
           color: "#c47206",
         },
         {
-          lang: "Vercel",
+          lang: "CSS",
           color: "#ff4b4b",
         },
         {
-          lang: "MongoDB",
+          lang: "Django",
           color: "#3c0095",
         },
         {
-          lang: "JWT/Bcrypt",
+          lang: "Heroku",
           color: "#ff4b4b",
         },
-        {
-          lang: "WebHooks",
-          color: "#00a100",
-        },
-        {
-          lang: "Rate-limiting",
-          color: "#820032",
-        },
       ],
-      link: "",
-      code: "https://github.com/abhishekjaglan/QuickDel",
+      link: "https://pryfry.herokuapp.com/",
+      code: "https://github.com/priyansh18/Resturant_site",
       linkcolor: "white",
     },
-    // {
-    //   title: "Semantic Search APP",
-    //   img_path: "project-03.png",
-    //   description:
-    //     "Demo of OpenAI's GPT-3 model on Semantic search using streamlit",
-    //   tags: [
-    //     {
-    //       lang: "ongoing",
-    //       color: "red",
-    //     },
-    //     {
-    //       lang: "Streamlit",
-    //       color: "#ff4b4b",
-    //     },
-    //   ],
-    //   link: "",
-    //   code: "",
-    //   linkcolor: "white",
-    // },
     {
-      title: "Notes Manager",
-      img_path: "notesmanager.jpeg",
+      title: "Breaking Bad Cast",
+      img_path: "proj-4.jpeg",
       description:
         "Developed scalable API using Node.js & Express.js, handling user authentication, note creation, search, sharing and security measures",
       tags: [
@@ -492,42 +330,30 @@ const projectcards = {
           color: "#004782",
         },
         {
-          lang: "Regex",
+          lang: "CSS",
           color: "#8700b0",
         },
         {
-          lang: "NodeJs",
+          lang: "HTML",
           color: "#c47206",
         },
         {
-          lang: "Express.js",
+          lang: "React",
           color: "#ff4b4b",
         },
         {
-          lang: "MongoDB",
+          lang: "Firebase",
           color: "#3c0095",
         },
-        {
-          lang: "JWT/Bcrypt",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "DDoS",
-          color: "#00a100",
-        },
-        {
-          lang: "Rate-limiting",
-          color: "#820032",
-        },
       ],
-      link: "",
-      code: "https://github.com/abhishekjaglan/Notes---api",
+      link: "https://breakingbad-cast.web.app/",
+      code: "https://github.com/priyansh18/breaking_bad_react",
       linkcolor: "white",
     },
 
     {
-      title: "Employee Management",
-      img_path: "employeemanagement.jpeg",
+      title: "Burger-Builder",
+      img_path: "proj-5.png",
       description:
         "RESTful API that manages employees of an organisation and performs all CRUD operations, along with security checks and searching in NestJs",
       tags: [
@@ -536,40 +362,28 @@ const projectcards = {
           color: "#004782",
         },
         {
-          lang: "Regex",
-          color: "#8700b0",
-        },
-        {
-          lang: "NestJs",
-          color: "#c47206",
-        },
-        {
-          lang: "DTOs",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "PostgreSQL",
+          lang: "HTML",
           color: "#3c0095",
         },
         {
-          lang: "JWT/Bcrypt",
+          lang: "CSS",
           color: "#ff4b4b",
         },
         {
-          lang: "CORS",
+          lang: "Firebase",
           color: "#00a100",
         },
         {
-          lang: "Rate-limiting",
+          lang: "Redux",
           color: "#820032",
         },
         {
-          lang: "Logs",
+          lang: "React",
           color: "#c47206",
         },
       ],
-      link: "",
-      code: "https://github.com/abhishekjaglan/EmployeeMang",
+      link: "https://burger-builder-5a5c5.web.app/",
+      code: "https://github.com/priyansh18/burger_builder",
       linkcolor: "white",
     },
     // {
@@ -607,35 +421,34 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Software Engineer - 1",
-        subtitle: "NCR Atleos",
-        date: "Jun 2024 - Present",
+        title: "Applications Developer",
+        subtitle: "Oracle",
+        date: "July 2023 - Present",
         content: [
-          "Engineered a high-performance RESTful API using Node.js and TypeScript, successfully replacing third-party software (NICS and SOUP) to seamlessly integrate AIM with CATM ARCS systems, demonstrating expertise in system integration and API development.",
-          "Implemented advanced inter-server communication using Axios, adhering to SOLID and DRY principles, showcasing strong software architecture skills and ability to write clean, maintainable, and efficient code in complex enterprise environments.",
-          "Developed a robust, production-ready solution incorporating comprehensive error handling, Winston logging for enhanced debugging, thorough testing practices, and streamlined deployment processes, illustrating end-to-end development capabilities and attention to code quality and reliability.",
-          "Architected and implemented a full-stack job tracking system, leveraging React.js and Chart.js for a dynamic multi-page dashboard, Node.js with TypeScript for robust backend services, and PostgreSQL for efficient data management.",
-          "Engineered an automated data pipeline using cron jobs to fetch and process metadata from diverse ERP datasources every 20 minutes, demonstrating expertise in real-time data integration and scheduled task management.",
-          "Designed and deployed a scalable solution capable of handling at least 5 different job types, showcasing proficiency in complex data flows, API development, and end-to-end application deployment on production servers.",
-
+          "•Leveraged knowledge-sharing resources to troubleshoot and resolve complex issues in Oracle APEX and OCI, resulting in a 30% increase in successful task completion rates.",
+          "Created tutorials and documentation to aid team members in understanding Oracle APEX and OCI, improving efficiency and collaboration.",
+          "Streamlined workflows by sharing best practices and troubleshooting techniques, reducing time spent on resolving recurring issues.",
+          "Developed resources that accelerated team learning, resulting in quicker onboarding and improved project outcomes.",
         ],
       },
       {
-        title: "Associate Software Developer",
-        subtitle: "Integers.Ai",
-        date: "May 2024 - Jun 2024",
+        title: "Full Stack Web Developer",
+        subtitle: "Startupstorymedia",
+        date: "May 2021 - Sep 2021",
         content: [
-          "Worked on ad-hoc tasks in frontend team using AngularJS on a project based out of UAE",
-          "Used git extensively as version control system",
+          "Led cross-functional team of designers and developers in a collaborative effort to craft a highly intuitive and user- centric website, resulting in a seamless online experience for our diverse user base and boosting user engagement by 30%.",
+          "Served as an integral part of a team and directly involved in making core-decisions.",
+          "Implemented a dynamic website that led to an increase in 25% throughput.",
         ],
       },
       {
-        title: "Data Analyst Intern",
-        subtitle: "The Shaadi Times",
-        date: "May 2020 - July 2020",
+        title: "Friends,",
+        subtitle: "Freelance",
+        date: "Feb 2021 - May 2021",
         content: [
-          "Analyzed COVID-19 and made report on its impact on UK transportation using R.",
-          " Increased the accuracy/efficiency of projections by 30%-40% by using predictive model like ARIMA in conjunction with linear regression on up-to 7 diverse public datasets.",
+          "Independently developed and deployed a dynamic, feature-rich website from scratch using Django, achieving rapid project completion and optimal functionality.",
+          "Collaborated with internal and external design/dev resources to implement scalable front-end templates and design modules.",
+          "•Modernised a User-interactive interface for a better experience.",
         ],
       },
     ],
@@ -648,58 +461,33 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Master’s in Science, Quantitative Finance",
-          subtitle: "City, University of London,  London, UK",
-          date: "2021 - 2022",
-          content: ["CGPA: 6.0/10"],
+          title: "Netaji Subhas University of Technology,",
+          subtitle: "New Delhi",
+          date: "Aug 2021 - Jun 2023",
+          content: ["CGPA: 8.1/10"],
         },
         {
           title: "Bachelor of Technology in Computer Science and Engineering",
           subtitle: "Guru Gobind Singh Indraprastha University, Delhi",
           date: "2017 - 2021",
-          content: ["CGPA: 8.3/10"],
+          content: ["CGPA: 8.6/10"],
         },
       ],
     },
     {
-      title: ["Ranks and Achivements"],
+      title: ["Achivements"],
       data: [
-        {
-          title: "Ranks",
-          content: [
-            "#761/3156 in weekly contest rating at CodeStudio",
-            "Level-7 Global Grandmaster weekly coder and problem solver at CodeStudio",
-          ],
-        },
         {
           title: "Achievements",
           content: [
             "Published a research paper in the IJSER journal written on “Covid-19 Trend Analysis using Machine Learning Techniques”",
-            "Solved 500+ DSA problem solving questions",
-            "Awarded PMSS scholarship throughout the bachelor’s degree.",
+            "Solved 300+ DSA problem solving questions",
+            "GATE 2021 with AIR 5571 among the top 5%.",
+            "•Attained an outstanding 92% score in AMCAT 2020,showcasing exceptional aptitude and competence in core skills and knowledge areas.",
           ],
         },
       ],
     },
-    // {
-    //   title: ["Freelance Work"],
-    //   data: [
-    //     {
-    //       title: "Consultancy Website",
-    //       subtitle: "kidsworldeducationconsultants.com",
-    //       content: [
-    //         "Created and hosted a website for consultancy providers in Kids Education Domain",
-    //       ],
-    //     },
-    //     {
-    //       title: "Portfolio Website",
-    //       subtitle: "pranavphulware.netlify.app",
-    //       content: [
-    //         "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
-    //       ],
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -707,109 +495,11 @@ const resumeright = {
 const certifications = {
   certifications: [
     {
-      title: "Tableau Analyst",
-      subtitle: "Tableau",
-      logo_path: "tabana-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Consumer",
-      subtitle: "Tableau",
-      logo_path: "tabcon-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Problem solving",
-      subtitle: "HackerRank",
-      logo_path: "problem-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Python",
-      subtitle: "HackerRank",
-      logo_path: "python-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "IITG",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Desktop Qualified Associate",
-      subtitle: "SimpliLearn",
-      logo_path: "simplilearn-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Simplilearn",
-      color_code: "#000000",
-    },
-    {
-      title: "Question Generation using Transformers",
-      subtitle: "Udemy",
-      logo_path: "udemy-01.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
-      alt_name: "Udemy",
-      color_code: "#000000",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "Stanford University",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Visualization",
-      subtitle: "University of Michigan",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "University of Michigan",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
-      certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
-      color_code: "#000000",
-    },
-    {
-      title: "PowerBI Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
+      title: "1B Round",
+      subtitle: "Code Chef",
+      logo_path: "Code.png",
+      certificate_link: "https://www.codechef.com/certificates/public/fe2c901",
+      alt_name: "Codechef",
       color_code: "#000000",
     },
   ],
@@ -825,11 +515,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Dwarka, Delhi-110077",
-  },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9873816649",
+    subtitle: "Mansarovar Park, Delhi-110032",
   },
 };
 
@@ -837,32 +523,26 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/abhishekjaglan",
+    link: "https://github.com/priyansh18",
     iconifyClassname: "simple-icons:github",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/abhishek-jaglan-041218160/",
+    link: "https://www.linkedin.com/in/priyanshsinghal/",
     fontAwesomeIcon: "fa-linkedin", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0A66C2", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "X",
-    link: "https://x.com/imabhijag",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:abhishek.jaglan08@gmail.com",
+    link: "mailto:singhalpriyansh58@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/abhijaglan08/",
+    link: "https://www.instagram.com/18_priyansh/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },

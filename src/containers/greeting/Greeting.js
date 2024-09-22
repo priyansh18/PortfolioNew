@@ -26,11 +26,11 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Backend Developer")
-                      .pauseFor(200)
+                      .typeString("Applications Developer")
+                      .pauseFor(300)
                       .deleteAll()
-                      .typeString("Full Stack Developer")
-                      .pauseFor(200)
+                      .typeString("Full Stack Web Developer")
+                      .pauseFor(300)
                       .start();
                   }}
                   options={{
@@ -41,9 +41,16 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}>
+                style={{ color: theme.text }}
+              >
                 <div className="entities">
-                  A <mark data-entity="noun">Full Stack Web Developer</mark>{" "} who thrives on providing solution based custom <mark data-entity="skill">Backend Systems</mark>, and a blend of <mark data-entity="skill">Frontend Technologies</mark>
+                  A <mark data-entity="noun">Full Stack Web Developer</mark> who
+                  thrives on providing solution based custom{" "}
+                  <mark data-entity="skill">Backend Systems</mark>, and a blend
+                  of{" "}
+                  <mark data-entity="skill">
+                    Applications Developing Technologies
+                  </mark>
                   {/* A <mark data-entity="noun">Data Science practitioner</mark>{" "}
                   who thrives to{" "}
                   <mark data-entity="verb">leverage Startups</mark> using
